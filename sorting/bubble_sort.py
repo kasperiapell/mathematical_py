@@ -12,10 +12,3 @@ def bubble_sort(a):
         if swapped == False:
             break
     return a
-
-
-a = [6, 100, 2, 3, 0, 1, 1, 55]
-
-b = bubble_sort(a)
-print(b)
-        
