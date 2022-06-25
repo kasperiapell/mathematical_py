@@ -1,5 +1,10 @@
 import math
 
+# A direct approach to compute the discrete Fourier transform
+# of a finite complex sequence z
+
+# Time complexity O(n^2)
+
 def DFT_brute (z):
 	L = len(z)
 	R = range(L)

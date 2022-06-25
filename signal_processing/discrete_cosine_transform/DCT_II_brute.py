@@ -1,6 +1,11 @@
 import math
 
-def DCT_brute (z):
+# A direct approach to compute the discrete cosine transform
+# of a finite complex sequence z
+
+# Time complexity O(n^2)
+
+def DCT_II_brute (z):
 	L = len(z)
 	R = range(L)
 	w = [0 for i in R]
