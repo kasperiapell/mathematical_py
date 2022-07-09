@@ -1,3 +1,5 @@
+// Quicksort algorithm using Lomuto partitioning scheme
+
 def swap(array, i, j):
     x = array[i]
     array[i] = array[j]
